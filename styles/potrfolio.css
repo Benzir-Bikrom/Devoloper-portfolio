@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    padding: 18px 35px;
+
+}
+
+/* heder and nevigaaaaaaation */
+.header{
+   
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    /* position: absolute; */
+    /* width: 584px;
+    height: 676px;
+    left: 978px;
+    top: 161px; */
+    
+    background-repeat: no-repeat;
+    background-position: bottom right, left ;
+}
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* banner style */
+
+.banner{
+    margin: 0 0px 0 200px;
+    display: flex;
+    align-items: center;
+}
+.bannet-sub-titl {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+.banner-title{
+    font-weight: 700;
+font-size: 85px;
+line-height: 116px;
+color: #181818;
+margin-bottom: 20px;
+}
+.banner-discription{
+font-size: 18px;
+line-height: 30px;
+color: #757575;
+margin-bottom: 30px;
+
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style */
+
+.about{
+    margin-top: 120px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px;
+    text-align: center;
+}
+.section-title{
+
+margin-bottom: 30px;
+font-size: 35px;
+line-height: 48px;
+color: #181818;
+}
+.section-discription{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+ .info-title{
+    color: #757575;
+    font-size: 20px;
+line-height: 30px;
+}
+
+.info-description{
+    font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #474747;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
