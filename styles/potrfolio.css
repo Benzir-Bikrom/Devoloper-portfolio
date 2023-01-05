@@ -139,8 +139,7 @@ color: #474747;
     margin-top: 120px;
    
    
-    
-   
+  
 }
 .section-title{
     text-align: center;
@@ -169,14 +168,44 @@ color: #474747;
     font-size: 20px;
     color: #181818;
     margin-top: 30px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
 .skill-description{
     font-size: 16px;
 line-height: 28px;
 color: #757575;
 text-align: left;
+}
+/* resumi style */
+.resumi-content{
+    display: flex;
+    gap: 24px;
+}
+.resumi-item{
+    margin: 30px 0 30px;
+}
+.resumi .title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resumi .sub-title{
+    font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+color: #757575;
+margin-bottom: 20px;
+}
+.resumi .discription{
+    font-size: 16px;
+    color: #757575;
+}
+.resumi-button{
+    margin-top: 50px;
+    text-align: center;
 }
 
 
